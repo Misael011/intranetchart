@@ -112,7 +112,7 @@ export default function SelectionDemo() {
             return (
                 <div className="flex flex-column">
                     <div className="flex flex-column align-items-center">
-                        <img alt={node.data.Nombre} src={node.data.image} className="mb-3 w-1rem h-3rem" />
+                        <img alt="" src={node.data.image} className="mb-3 w-1rem h-3rem" />
                         <span className="font-bold mb-2">{node.data.Nombre}</span>
                         <span>{node.data.Puesto}</span>
                     </div>
