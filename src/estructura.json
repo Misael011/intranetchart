@@ -1,0 +1,404 @@
+[
+    {
+        "expanded": true,
+        "type": "person",
+        "data": {
+            "Nombre": "Iñigo",
+            "Puesto": "Gerente General",
+            "Descripcion": "link",
+            "children": [
+                {
+                    "expanded": true,
+                    "type": "person",
+                    "data": {
+                        "Nombre": "Antonio Topete",
+                        "Puesto": "Gerente de administración y finanzas",
+                        "Descripcion": "link",
+                        "children": [
+                            {
+                                "expanded": true,
+                                "type": "person",
+                                "data": {
+                                    "JefeDeSistemas": {
+                                        "Nombre": "Ricardo",
+                                        "Puesto": "Jefatura de sistemas",
+                                        "Descripcion": "link",
+                                        "Desarrollador": {
+                                            "Nombre": "Misael",
+                                            "Puesto": "Desarrollador JR",
+                                            "Descripcion": "link"
+                                        },
+                                        "Tecnico": {
+                                            "Nombre": "Jorge del futuro",
+                                            "Puesto": "Técnico de sistemas",
+                                            "Descripcion": "link"
+                                        },
+                                        "Trainee": {
+                                            "Nombre": "Jorge",
+                                            "Puesto": "Traine",
+                                            "Descripcion": "link"
+                                        }
+                                    }
+                                },
+                                "Contador": {
+                                    "ContadorGeneral": {
+                                        "Nombre": "z",
+                                        "Puesto": "Contador General",
+                                        "Descripcion": "link",
+                                        "Traine": {
+                                            "nombre": "z",
+                                            "Puesto": "Traine",
+                                            "Descripcion": "link"
+                                        }
+                                    }
+                                },
+                                "CoordinadorAdministrativo": {
+                                    "Nombre": "z",
+                                    "Puesto": "Coordinador administrativo",
+                                    "Descripcion": "link"
+                                },
+                                "ResponsableDeTesoreria": {
+                                    "Nombre": "z",
+                                    "Puesto": "Responsable de tesoreria",
+                                    "Descripcion": "link"
+                                },
+                                "Costos": {
+                                    "JefeDeCostos": [
+                                        {
+                                            "Nombre": "z",
+                                            "Puesto": "Jefe de costos",
+                                            "Descripcion": "link",
+                                            "ResponsableDeCostos": {
+                                                "Nombre": "z",
+                                                "Puesto": "Responsable de costos",
+                                                "Descripcion": "link"
+                                            },
+                                            "ResponsableDeBascula": {
+                                                "Nombre": "z",
+                                                "Puesto": "Responsable de báscula",
+                                                "Descripcion": "link"
+                                            },
+                                            "AnalistaDeCostos": {
+                                                "Nombre": "z",
+                                                "Puesto": "Analista de costos",
+                                                "Descripcion": "link"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "SupervisorDeContabilidad": {
+                                    "Nombre": "z",
+                                    "Puesto": "Supervisor de contabilidad",
+                                    "Descripcion": "link",
+                                    "CoordinadorDeCreditoYCarteraMascotas": {
+                                        "Nombre": "z",
+                                        "Puesto": "Coordinador de credito y cartera mascotas",
+                                        "Descripcion": "link"
+                                    },
+                                    "CoordinadorDeCreditoYCarteraPecuario": {
+                                        "Nombre": "z",
+                                        "Puesto": "Coordinador de credito y cartera pecuario",
+                                        "Descripcion": "link"
+                                    },
+                                    "AuditorInternoAdministrativo": {
+                                        "Nombre": "z",
+                                        "Puesto": "Auditor interno administrativo",
+                                        "Descripcion": "link"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "DirectorComercial": {
+                        "Nombre": "Roman soto Trujillo",
+                        "Puesto": "Director Comercial",
+                        "Descripcion": "link"
+                    }
+                },
+                {
+                    "LogisticaYabastecimiento": [
+                        {
+                            "Nombre": "Juan Francisco Sánchez García",
+                            "Puesto": "Gerente de logistica y abastecmiento",
+                            "Descripcion": "link",
+                            "Traine": {
+                                "Nombre": "z",
+                                "Puesto": "Traine",
+                                "Descripcion": "link"
+                            },
+                            "Areas": [
+                                {
+                                    "Trafico": {
+                                        "JefeDeTrafico": [
+                                            {
+                                                "Nombre": "z",
+                                                "Puesto": "Jefatura de trafico",
+                                                "Descripcion": "link",
+                                                "ResponsableDeTrafico": {
+                                                    "Nombre": "z",
+                                                    "Puesto": "Responsable de tráfico",
+                                                    "Descripcion": "link"
+                                                },
+                                                "AnalistaDeTrafico": {
+                                                    "Nombre": "z",
+                                                    "Puesto": "Analista de tráfico",
+                                                    "Descripcion": "link"
+                                                },
+                                                "ChoferComisionista": [
+                                                    {
+                                                        "Nombre": "z",
+                                                        "Puesto": "Chofer comisiionista",
+                                                        "Descripcion": "link"
+                                                    },
+                                                    {
+                                                        "Nombre": "z",
+                                                        "Puesto": "Chofer comisiionista",
+                                                        "Descripcion": "link"
+                                                    },
+                                                    {
+                                                        "Nombre": "z",
+                                                        "Puesto": "Chofer comisiionista",
+                                                        "Descripcion": "link"
+                                                    },
+                                                    {
+                                                        "Nombre": "z",
+                                                        "Puesto": "Chofer comisiionista",
+                                                        "Descripcion": "link"
+                                                    }
+                                                ],
+                                                "ChoferTransporteDePersonal": [
+                                                    {
+                                                        "Nombre": "z",
+                                                        "Puesto": "Chofer transporte de personal",
+                                                        "Descripcion": "link"
+                                                    },
+                                                    {
+                                                        "Nombre": "z",
+                                                        "Puesto": "Chofer transporte de personal",
+                                                        "Descripcion": "link"
+                                                    },
+                                                    {
+                                                        "Nombre": "z",
+                                                        "Puesto": "Chofer transporte de personal",
+                                                        "Descripcion": "link"
+                                                    },
+                                                    {
+                                                        "Nombre": "z",
+                                                        "Puesto": "Chofer transporte de personal",
+                                                        "Descripcion": "link"
+                                                    },
+                                                    {
+                                                        "Nombre": "z",
+                                                        "Puesto": "Chofer transporte de personal",
+                                                        "Descripcion": "link"
+                                                    }
+                                                ],
+                                                "ChoferMensajero": {
+                                                    "Nombre": "z",
+                                                    "Puesto": "Chofer mensajero",
+                                                    "Descripcion": "link"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "BodegaEstacion": {
+                                        "ResponsableDeBodegaEstacion": {
+                                            "Nombre": "z",
+                                            "Puesto": "Responsable de bodega estación",
+                                            "Descripcion": "link",
+                                            "EncargadoDeBascula": {
+                                                "nombre": "z",
+                                                "Puesto": "Encargado de báscula",
+                                                "Descripcion": "link"
+                                            },
+                                            "EstibadorDeBodegaEtacion": {
+                                                "nombre": "z",
+                                                "Puesto": "Estibador de bodega estación",
+                                                "Descripcion": "link"
+                                            }
+                                        }
+                                    },
+                                    "AnalistaDeLgistica": {
+                                        "Nombre": "z",
+                                        "Puesto": "Analista de logística",
+                                        "Descripcion": "link"
+                                    },
+                                    "CoordinadorDeCompras": {
+                                        "Nombre": "z",
+                                        "Puesto": "Coordinador de compras",
+                                        "Descripcion": "link"
+                                    },
+                                    "ResponsableDeCompras": {
+                                        "Nombre": "z",
+                                        "Puesto": "Responsable de compras",
+                                        "Descripcion": "link"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "AseguramientoDeCalidad": [
+                        {
+                            "Nombre": "Jose Cervantes",
+                            "Puesto": "Gerente de aseguramiento de calidad",
+                            "Descripcion": "link",
+                            "Traine": [
+                                {
+                                    "Nombre": "z",
+                                    "Puesto": "Coordinador administrativo",
+                                    "Descripcion": "link"
+                                },
+                                {
+                                    "Nombre": "z",
+                                    "Puesto": "Coordinador administrativo",
+                                    "Descripcion": "link"
+                                }
+                            ],
+                            "Departamentos": [
+                                {
+                                    "SGC": [
+                                        {
+                                            "JefeDeSGC": [
+                                                {
+                                                    "Nombre": "z",
+                                                    "Puesto": "Jefe de SGC",
+                                                    "Descripcion": "link",
+                                                    "AuditotDelSGC": {
+                                                        "Nombre": "z",
+                                                        "Puesto": "Auditor del SGC",
+                                                        "Descripcion": "link"
+                                                    },
+                                                    "GestorDelSistemaDeCalidad": {
+                                                        "Nombre": "z",
+                                                        "Puesto": "Técnico de sistemas",
+                                                        "Descripcion": "link"
+                                                    },
+                                                    "CoordinadorDeAsuntosRegulatorios": {
+                                                        "Nombre": "z",
+                                                        "Puesto": "Coordinador de asuntos regulatorios",
+                                                        "Descripcion": "link"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "Laboratorio": [
+                                        {
+                                            "JefeDeLaboratorio": [
+                                                {
+                                                    "Nombre": "z",
+                                                    "Puesto": "Jefe de laboratorio",
+                                                    "Descripcion": "link",
+                                                    "SupervisorDeCalidadEnProceso": [
+                                                        {
+                                                            "nombre": "z",
+                                                            "Puesto": "Supervisor de calidad en proceso",
+                                                            "Descripcion": "link"
+                                                        },
+                                                        {
+                                                            "nombre": "z",
+                                                            "Puesto": "Supervisor de calidad en proceso",
+                                                            "Descripcion": "link"
+                                                        },
+                                                        {
+                                                            "nombre": "z",
+                                                            "Puesto": "Supervisor de calidad en proceso",
+                                                            "Descripcion": "link"
+                                                        },
+                                                        {
+                                                            "nombre": "z",
+                                                            "Puesto": "Supervisor de calidad en proceso",
+                                                            "Descripcion": "link"
+                                                        },
+                                                        {
+                                                            "nombre": "z",
+                                                            "Puesto": "Supervisor de calidad en proceso",
+                                                            "Descripcion": "link"
+                                                        },
+                                                        {
+                                                            "nombre": "z",
+                                                            "Puesto": "Supervisor de calidad en proceso",
+                                                            "Descripcion": "link"
+                                                        }
+                                                    ],
+                                                    "AnalistaDeAseguramientoDeCalidad": [
+                                                        {
+                                                            "nombre": "z",
+                                                            "Puesto": "Analista de aseguramiento de calidad",
+                                                            "Descripcion": "link"
+                                                        },
+                                                        {
+                                                            "nombre": "z",
+                                                            "Puesto": "Analista de aseguramiento de calidad",
+                                                            "Descripcion": "link"
+                                                        }
+                                                    ],
+                                                    "MuestreadorDeAseguramientoDeCalidad": {
+                                                        "nombre": "z",
+                                                        "Puesto": "Muestreador de aseguramiento de calidad",
+                                                        "Descripcion": "link"
+                                                    },
+                                                    "IntendenteDeLaboratorio": {
+                                                        "nombre": "z",
+                                                        "Puesto": "Intendente de laboratorio",
+                                                        "Descripcion": "link"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Nutricion": {
+                        "Nombre": "David Jara",
+                        "Puesto": "Gerente de nutricion",
+                        "Descripcion": "link"
+                    }
+                },
+                {
+                    "Operaciones": {
+                        "Nombre": "Marco Huerta",
+                        "Puesto": "Gerente de operaciones",
+                        "Descripcion": "link"
+                    }
+                },
+                {
+                    "NacionalVentasPecuario": {
+                        "Nombre": "Marco Celestinos",
+                        "Puesto": "Gerente nacional de ventas pecuario",
+                        "Descripcion": "link"
+                    }
+                },
+                {
+                    "InnovacionYproyectos": {
+                        "Nombre": "Vacante",
+                        "Puesto": "Gerente de innnovación y proyectos",
+                        "Descripcion": "link"
+                    }
+                },
+                {
+                    "GestionDeTalentoHumano": {
+                        "Nombre": "Juan Manuel Magaña",
+                        "Puesto": "Gerente de talento humano",
+                        "Descripcion": "link"
+                    }
+                },
+                {
+                    "CoordinacionDeLogisticaInternaYmaquilas": {
+                        "Nombre": "Vacante",
+                        "Puesto": "Coordinador de logsitica interna y maquilas",
+                        "Descripcion": "link"
+                    }
+                }
+            ]
+        }
+    }
+]

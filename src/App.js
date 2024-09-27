@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import { Button } from 'primereact/button';
 
 function App() {
   return (
@@ -17,6 +18,9 @@ function App() {
         >
           Learn React
         </a>
+        <div className="card flex justify-content-center">
+            <Button label="Check" icon="pi pi-check" />
+        </div>
       </header>
     </div>
   );
