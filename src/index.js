@@ -11,7 +11,8 @@ import 'primereact/resources/primereact.css';
 import 'primereact/resources/themes/lara-light-indigo/theme.css';
 
 import "primereact/resources/themes/lara-light-cyan/theme.css";
-
+import './index.css';
+import './flags.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
