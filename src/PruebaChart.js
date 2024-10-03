@@ -1,8 +1,13 @@
 import React, { useState } from "react";
 import { OrganizationChart } from "primereact/organizationchart";
 
+import './estilos.css';
+
 export default function SelectionDemo() {
-  const [selection, setSelection] = useState([]);
+  const handleClick = () => {
+    console.log("Go to link");
+  };
+
   const [data] = useState([
     {
       expanded: true,
@@ -1539,31 +1544,51 @@ export default function SelectionDemo() {
     },
   ]);
 
+
+
+
   const nodeTemplate = (node) => {
-    if (node.type === "person") {
+    if (node.type === 'person' && node.data.Descripcion !== "link") {
+
       return (
-        <div className="flex flex-column">
+        <div className="cascos flex flex-column" >
+          <a href={node.data.Descripcion} target="_blank" rel="noreferrer">
+            <div className="flex flex-column align-items-center">
+              {
+                node.data.image != null ? <img alt="" src={node.data.image} className="mb-3 w-1rem h-3rem" /> : <div></div>
+              }
+              {
+                node.data.Nombre === 'z' ? <div></div> : <span className="font-bold mb-2">{node.data.Nombre}</span>
+              }
+              <span>{node.data.Puesto}</span>
+            </div>
+          </a>
+        </div>
+      );
+    } else {
+      return (
+        <div className="cascos flex flex-column" >
           <div className="flex flex-column align-items-center">
-            <img alt="" src={node.data.image} className="mb-3 w-1rem h-3rem" />
-            <span className="font-bold mb-2">{node.data.Nombre}</span>
+            {
+              node.data.image != null ? <img alt="" src={node.data.image} className="mb-3 w-1rem h-3rem" /> : <div></div>
+            }
+            {
+              node.data.Nombre === 'z' ? <div></div> : <span className="font-bold mb-2">{node.data.Nombre}</span>
+            }
             <span>{node.data.Puesto}</span>
           </div>
         </div>
       );
     }
-
-    return node.label;
   };
 
+
   return (
-    <div className="card overflow-x-auto">
-      <OrganizationChart
-        value={data}
-        selectionMode="multiple"
-        selection={selection}
-        onSelectionChange={(e) => setSelection(e.data)}
-        nodeTemplate={nodeTemplate}
-      />
+    <div onClick={handleClick}>
+      <div className="overflow-x-auto" >
+        <OrganizationChart value={data} nodeTemplate={nodeTemplate} />
+      </div>
     </div>
-  );
+
+  )
 }
