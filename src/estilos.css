@@ -1,4 +1,6 @@
-.cascos{
-    background-color: aqua;
-    margin-right: auto;
+a{
+    text-decoration: none;
+}
+a:link, :visited, :hover, :active{
+    color: #000000;
 }
